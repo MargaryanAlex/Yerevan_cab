@@ -2,5 +2,15 @@
   "name": "yerevan_cab",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@latest"
+  "packageManager": "pnpm@10.17.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "latest",
+    "typescript": "^5.6.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
 }
